@@ -1,0 +1,462 @@
+﻿Log file open, 08/26/18 20:16:12
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: EscapeRoom
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.322150
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +1:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapEmulator
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.087s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.20-CL-4233996
+LogInit: Engine Version: 4.20.1-4233996+++UE4+Release-4.20
+LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
+LogInit: Net CL: 4212847
+LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i7-6700HQ CPU @ 2.60GHz, GPU: Intel(R) HD Graphics 530
+LogInit: Compiled (64-bit): Jul 26 2018 10:07:30
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.20
+LogInit: Command Line: 
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 20
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 24
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 26
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
+LogStreaming: Display: Took  0.000s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.08.26-18.16.12:388][  0]LogInit: Selected Device Profile: [Windows]
+[2018.08.26-18.16.12:388][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.08.26-18.16.12:396][  0]LogHAL: Display: Platform has ~ 16 GB [17074421760 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2018.08.26-18.16.12:396][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2018.08.26-18.16.12:396][  0]LogInit: Going up to parent DeviceProfile []
+[2018.08.26-18.16.12:396][  0]LogInit: Computer: DESKTOP-MD761FN
+[2018.08.26-18.16.12:396][  0]LogInit: User: nordh
+[2018.08.26-18.16.12:396][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.08.26-18.16.12:396][  0]LogInit: High frequency timer resolution =2.531254 MHz
+[2018.08.26-18.16.12:396][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2018.08.26-18.16.12:396][  0]LogMemory: Platform Memory Stats for Windows
+[2018.08.26-18.16.12:396][  0]LogMemory: Process Physical Memory: 100.71 MB used, 100.71 MB peak
+[2018.08.26-18.16.12:396][  0]LogMemory: Process Virtual Memory: 92.25 MB used, 92.25 MB peak
+[2018.08.26-18.16.12:396][  0]LogMemory: Physical Memory: 5885.34 MB used,  10398.10 MB free, 16283.44 MB total
+[2018.08.26-18.16.12:396][  0]LogMemory: Virtual Memory: 4641.81 MB used,  10398.10 MB free, 134217728.00 MB total
+[2018.08.26-18.16.12:412][  0]LogInit: Using OS detected language (sv-SE).
+[2018.08.26-18.16.12:412][  0]LogInit: Using OS detected locale (sv-SE).
+[2018.08.26-18.16.12:413][  0]LogTextLocalizationManager: No localization for 'sv-SE' exists, so 'en' will be used for the language.
+[2018.08.26-18.16.12:790][  0]LogStreaming: Display: Took  0.378s to InitEngineTextLocalization.
+[2018.08.26-18.16.12:790][  0]LogInit: Setting process to per monitor DPI aware
+[2018.08.26-18.16.12:830][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.08.26-18.16.12:830][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.08.26-18.16.13:089][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.08.26-18.16.13:089][  0]LogD3D11RHI: D3D11 adapters:
+[2018.08.26-18.16.13:136][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970M' (Feature Level 11_0)
+[2018.08.26-18.16.13:136][  0]LogD3D11RHI:       3038/0/8141 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.08.26-18.16.13:147][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 530' (Feature Level 11_0)
+[2018.08.26-18.16.13:147][  0]LogD3D11RHI:       128/0/8141 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2018.08.26-18.16.13:149][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.08.26-18.16.13:149][  0]LogD3D11RHI:       0/0/8141 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.08.26-18.16.13:149][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.08.26-18.16.13:166][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.08.26-18.16.13:166][  0]LogD3D11RHI:     GPU DeviceId: 0x13d8 (for the marketing name, search the web for "GPU Device Id")
+[2018.08.26-18.16.13:166][  0]LogWindows: EnumDisplayDevices:
+[2018.08.26-18.16.13:166][  0]LogWindows:    0. 'Intel(R) HD Graphics 530' (P:1 D:1)
+[2018.08.26-18.16.13:167][  0]LogWindows:    1. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2018.08.26-18.16.13:167][  0]LogWindows:    2. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2018.08.26-18.16.13:167][  0]LogWindows:    3. 'NVIDIA GeForce GTX 970M' (P:0 D:0)
+[2018.08.26-18.16.13:167][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter 
+[2018.08.26-18.16.13:167][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970M
+[2018.08.26-18.16.13:167][  0]LogD3D11RHI:   Driver Version: 382.05 (internal:22.21.13.8205, unified:382.05)
+[2018.08.26-18.16.13:167][  0]LogD3D11RHI:      Driver Date: 5-1-2017
+[2018.08.26-18.16.13:167][  0]LogRHI: Texture pool is 2127 MB (70% of 3038 MB)
+[2018.08.26-18.16.13:199][  0]LogD3D11RHI: Async texture creation enabled
+[2018.08.26-18.16.13:209][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2018.08.26-18.16.13:210][  0]LogShaderCompilers: Guid format shader working directory is -19 characters bigger than the processId version (D:/Programmering/Unreal-Engine-Udemy-Tutorial-Project/EscapeRoom/Intermediate/Shaders/WorkingDirectory/20500/).
+[2018.08.26-18.16.13:210][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/nordh/AppData/Local/Temp/UnrealShaderWorkingDir/C57F4D5D43EF433AA488F38FF2A3C1D1/'.
+[2018.08.26-18.16.13:467][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.08.26-18.16.13:482][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.08.26-18.16.13:495][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.08.26-18.16.13:509][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.08.26-18.16.13:527][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.08.26-18.16.13:544][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.08.26-18.16.13:559][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.08.26-18.16.13:574][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.08.26-18.16.13:580][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.08.26-18.16.13:667][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.08.26-18.16.13:667][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.08.26-18.16.13:667][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.08.26-18.16.13:667][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.08.26-18.16.13:667][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.08.26-18.16.13:667][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.08.26-18.16.13:667][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.08.26-18.16.13:667][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.08.26-18.16.13:667][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.08.26-18.16.13:667][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.08.26-18.16.13:667][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.08.26-18.16.13:667][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.08.26-18.16.13:667][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.08.26-18.16.13:667][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.08.26-18.16.13:667][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.08.26-18.16.13:667][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.08.26-18.16.13:667][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.08.26-18.16.13:667][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.08.26-18.16.13:668][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.08.26-18.16.13:738][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.08.26-18.16.13:738][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.08.26-18.16.13:763][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.08.26-18.16.13:763][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.08.26-18.16.13:776][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.08.26-18.16.13:789][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.08.26-18.16.13:801][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.08.26-18.16.13:822][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.08.26-18.16.13:832][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2018.08.26-18.16.13:832][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.08.26-18.16.13:889][  0]LogXGEController: Cleaning working directory: C:/Users/nordh/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2018.08.26-18.16.13:889][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2018.08.26-18.16.13:889][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2018.08.26-18.16.13:889][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.08.26-18.16.14:644][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.08.26-18.16.14:696][  0]LogDerivedDataCache: Loaded boot cache 0.05s 71MB C:/Users/nordh/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.08.26-18.16.14:696][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/nordh/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2018.08.26-18.16.14:696][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/Programmering/Unreal-Engine-Udemy-Tutorial-Project/EscapeRoom/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.08.26-18.16.14:696][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.08.26-18.16.14:696][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/Programmering/Unreal-Engine-Udemy-Tutorial-Project/EscapeRoom/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.08.26-18.16.14:696][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.08.26-18.16.14:710][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.08.26-18.16.14:722][  0]LogDerivedDataCache: Using Local data cache path C:/Users/nordh/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.08.26-18.16.14:722][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2018.08.26-18.16.14:722][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2018.08.26-18.16.14:741][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.08.26-18.16.14:742][  0]LogSlate: Using FreeType 2.6.0
+[2018.08.26-18.16.14:743][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.08.26-18.16.14:821][  0]LogAssetRegistry: FAssetRegistry took 0.0267 seconds to start up
+[2018.08.26-18.16.15:152][  0]LogInit: Selected Device Profile: [Windows]
+[2018.08.26-18.16.15:299][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.08.26-18.16.15:303][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.08.26-18.16.15:304][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2018.08.26-18.16.15:304][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.08.26-18.16.15:304][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.08.26-18.16.15:320][  0]LogNetVersion: EscapeRoom 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 2545078580)
+[2018.08.26-18.16.15:828][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 1 prioritized culture(s) in 0.085635 seconds
+[2018.08.26-18.16.15:835][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2018.08.26-18.16.15:835][  0]LogUObjectAllocator: 6690864 out of 0 bytes used by permanent object pool.
+[2018.08.26-18.16.15:835][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.08.26-18.16.16:884][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.08.26-18.16.16:897][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.08.26-18.16.17:045][  0]SourceControl: Source control is disabled
+[2018.08.26-18.16.17:045][  0]SourceControl: Source control is disabled
+[2018.08.26-18.16.17:046][  0]SourceControl: Source control is disabled
+[2018.08.26-18.16.17:046][  0]SourceControl: Source control is disabled
+[2018.08.26-18.16.17:217][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.08.26-18.16.17:277][  0]LogOcInput: OculusInput pre-init called
+[2018.08.26-18.16.17:338][  0]LogEngine: Initializing Engine...
+[2018.08.26-18.16.17:339][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.08.26-18.16.17:340][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.08.26-18.16.17:340][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.08.26-18.16.17:340][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.08.26-18.16.17:340][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.08.26-18.16.17:582][  0]LogInit: Initializing FReadOnlyCVARCache
+[2018.08.26-18.16.17:595][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.08.26-18.16.17:610][  0]LogInit: XAudio2 using 'Högtalare (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.08.26-18.16.17:634][  0]LogInit: FAudioDevice initialized.
+[2018.08.26-18.16.17:635][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2018.08.26-18.16.17:689][  0]LogDerivedDataCache: Saved boot cache 0.05s 71MB C:/Users/nordh/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.08.26-18.16.17:703][  0]LogInit: Texture streaming: Enabled
+[2018.08.26-18.16.17:724][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.08.26-18.16.17:724][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=Crashed, SessionId={6769D3E8-4D5C-C00B-30AF-5CBBE2227576}
+[2018.08.26-18.16.17:724][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=Debugger, SessionId={64677273-4B3A-4007-ABF5-34910D75DCF5}
+[2018.08.26-18.16.17:737][  0]LogInit: Transaction tracking system initialized
+[2018.08.26-18.16.17:762][  0]BlueprintLog: New page: Editor Load
+[2018.08.26-18.16.17:834][  0]LocalizationService: Localization service is disabled
+[2018.08.26-18.16.18:113][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.08.26-18.16.18:113][  0]LogCook: Display: Mobile HDR setting 1
+[2018.08.26-18.16.18:113][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.08.26-18.16.18:113][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.08.26-18.16.18:113][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.08.26-18.16.18:113][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.08.26-18.16.18:113][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.08.26-18.16.18:236][  0]LogFileCache: Scanning file cache for directory 'D:/Programmering/Unreal-Engine-Udemy-Tutorial-Project/EscapeRoom/Content/' took 0.02s
+[2018.08.26-18.16.18:236][  0]SourceControl: Source control is disabled
+[2018.08.26-18.16.18:325][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.08.26-18.16.18:327][  0]LogSlate: Took 0.000266 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.08.26-18.16.26:238][  0]LogSlate: Window 'Restore Packages' being destroyed
+[2018.08.26-18.16.26:239][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.08.26-18.16.26:245][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.08.26-18.16.30:547][  0]LogSlate: Window 'Unable to Check Out From Source Control!' being destroyed
+[2018.08.26-18.16.30:548][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.08.26-18.16.30:553][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.08.26-18.16.30:559][  0]Cmd: MAP LOAD FILE="D:/Programmering/Unreal-Engine-Udemy-Tutorial-Project/EscapeRoom/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.08.26-18.16.30:559][  0]LightingResults: New page: Lighting Build
+[2018.08.26-18.16.30:563][  0]MapCheck: New page: Map Check
+[2018.08.26-18.16.30:563][  0]LightingResults: New page: Lighting Build
+[2018.08.26-18.16.31:143][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.08.26-18.16.31:157][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.08.26-18.16.31:184][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.08.26-18.16.31:256][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 72,306ms to complete.
+[2018.08.26-18.16.31:256][  0]LogFileHelpers: Loading map 'Minimal_Default' took 0.697
+[2018.08.26-18.16.31:298][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.08.26-18.16.31:305][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.08.26-18.16.31:314][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.08.26-18.16.31:321][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.08.26-18.16.31:330][  0]LogCollectionManager: Loaded 0 collections in 0.001435 seconds
+[2018.08.26-18.16.31:373][  0]LogFileCache: Scanning file cache for directory 'D:/Programmering/Unreal-Engine-Udemy-Tutorial-Project/EscapeRoom/Saved/Collections/' took 0.01s
+[2018.08.26-18.16.31:373][  0]LogFileCache: Scanning file cache for directory 'D:/Programmering/Unreal-Engine-Udemy-Tutorial-Project/EscapeRoom/Content/Developers/nordh/Collections/' took 0.01s
+[2018.08.26-18.16.31:373][  0]LogFileCache: Scanning file cache for directory 'D:/Programmering/Unreal-Engine-Udemy-Tutorial-Project/EscapeRoom/Content/Collections/' took 0.01s
+[2018.08.26-18.16.31:373][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2018.08.26-18.16.31:384][  0]LogContentBrowser: Native class hierarchy populated in 0.0115 seconds. Added 2575 classes and 605 folders.
+[2018.08.26-18.16.31:391][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2018.08.26-18.16.31:519][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2018.08.26-18.16.31:523][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2018.08.26-18.16.31:539][  0]LogSlate: Took 0.000328 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.08.26-18.16.31:547][  0]LogSlate: Took 0.001295 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.08.26-18.16.31:598][  0]LogRenderer: Reallocating scene render targets to support 964x436 Format 10 NumSamples 1 (Frame:1).
+[2018.08.26-18.16.31:720][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2018.08.26-18.16.31:720][  0]LogLoad: (Engine Initialization) Total time: 21.01 seconds
+[2018.08.26-18.16.31:720][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.08.26-18.16.31:762][  0]LogContentStreaming: Texture pool size now 3000 MB
+[2018.08.26-18.16.31:776][  0]LogSlate: Took 0.001949 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.08.26-18.16.31:793][  1]LogAssetRegistry: Asset discovery search completed in 16.9946 seconds
+[2018.08.26-18.16.31:795][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.08.26-18.16.31:795][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000051 seconds (updated 0 objects)
+[2018.08.26-18.16.36:676][285]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.08.26-18.16.36:759][290]LogTemp: Repeating last play command: Selected Viewport
+[2018.08.26-18.16.36:768][290]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.08.26-18.16.36:768][290]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.08.26-18.16.36:781][290]PIE: New page: PIE session: Minimal_Default (26 aug 2018 22:16:36)
+[2018.08.26-18.16.36:781][290]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2018.08.26-18.16.36:787][290]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005164s)
+[2018.08.26-18.16.36:788][290]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.08.26-18.16.36:788][290]LogPlayLevel: PIE: World Init took: (0.001803s)
+[2018.08.26-18.16.36:789][290]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.007236s)
+[2018.08.26-18.16.36:816][290]LogInit: XAudio2 using 'Högtalare (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.08.26-18.16.36:826][290]LogInit: FAudioDevice initialized.
+[2018.08.26-18.16.36:883][290]LogLoad: Game class is 'EscapeRoomGameMode_BP_C'
+[2018.08.26-18.16.36:886][290]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 60) at 2018.08.26-20.16.36
+[2018.08.26-18.16.36:886][290]LogWorld: Bringing up level for play took: 0.001007
+[2018.08.26-18.16.36:903][290]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 10 classes and 0 folders.
+[2018.08.26-18.16.36:904][290]LogTemp: Warning: OpenableDoor - OpenDoor: There's no pressure plate assigned!
+[2018.08.26-18.16.36:904][290]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0,839
+[2018.08.26-18.16.36:904][290]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.08.26-18.16.38:467][382]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.08.26-18.16.38:467][382]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.08.26-18.16.38:500][382]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.08.26-18.16.38:501][382]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.08.26-18.16.38:527][382]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.08.26-18.16.38:579][385]LogPlayLevel: Display: Destroying online subsystem :Context_1
+[2018.08.26-18.16.52:347][211]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Awesome Chair)
+[2018.08.26-18.16.55:667][407]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (OpenableDoor)
+[2018.08.26-18.17.00:759][710]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.08.26-18.17.09:838][251]LogRenderer: Reallocating scene render targets to support 964x712 Format 10 NumSamples 1 (Frame:2174).
+[2018.08.26-18.17.21:910][973]LogSlate: Took 0.001333 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2018.08.26-18.17.33:449][629]LogTemp: Repeating last play command: Selected Viewport
+[2018.08.26-18.17.33:457][629]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.08.26-18.17.33:458][629]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.08.26-18.17.33:458][629]PIE: New page: PIE session: Minimal_Default (26 aug 2018 22:17:33)
+[2018.08.26-18.17.33:458][629]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2018.08.26-18.17.33:463][629]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004341s)
+[2018.08.26-18.17.33:464][629]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.08.26-18.17.33:465][629]LogPlayLevel: PIE: World Init took: (0.001961s)
+[2018.08.26-18.17.33:465][629]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.007320s)
+[2018.08.26-18.17.33:496][629]LogInit: XAudio2 using 'Högtalare (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.08.26-18.17.33:507][629]LogInit: FAudioDevice initialized.
+[2018.08.26-18.17.33:540][629]LogLoad: Game class is 'EscapeRoomGameMode_BP_C'
+[2018.08.26-18.17.33:542][629]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 60) at 2018.08.26-20.17.33
+[2018.08.26-18.17.33:543][629]LogWorld: Bringing up level for play took: 0.001156
+[2018.08.26-18.17.33:556][629]LogTemp: Warning: OpenableDoor - OpenDoor: There's no pressure plate assigned!
+[2018.08.26-18.17.33:556][629]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default −0,509
+[2018.08.26-18.17.33:557][629]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.08.26-18.17.34:194][665]LogTemp: Warning: DefaultPawn_BP: Grab called!
+[2018.08.26-18.17.34:194][665]LogTemp: Warning: start: X=165.000 Y=0.000 Z=127.007    end: X=45.000 Y=0.001 Z=127.007
+[2018.08.26-18.17.34:426][679]LogTemp: Warning: DefaultPawn_BP: Release called!
+[2018.08.26-18.17.35:093][719]LogTemp: Warning: DefaultPawn_BP: Grab called!
+[2018.08.26-18.17.35:094][719]LogTemp: Warning: start: X=-62.986 Y=80.710 Z=127.000    end: X=-172.078 Y=120.811 Z=97.151
+[2018.08.26-18.17.35:427][739]LogTemp: Warning: DefaultPawn_BP: Release called!
+[2018.08.26-18.17.35:610][750]LogTemp: Warning: DefaultPawn_BP: Grab called!
+[2018.08.26-18.17.35:610][750]LogTemp: Warning: start: X=-78.261 Y=83.635 Z=127.000    end: X=-188.727 Y=104.885 Z=85.217
+[2018.08.26-18.17.35:610][750]LogTemp: Warning: Line trace hit: AwesomeChair
+[2018.08.26-18.17.36:394][797]LogTemp: Warning: DefaultPawn_BP: Release called!
+[2018.08.26-18.17.37:762][879]LogTemp: Warning: DefaultPawn_BP: Grab called!
+[2018.08.26-18.17.37:762][879]LogTemp: Warning: start: X=-99.152 Y=87.654 Z=127.000    end: X=-58.468 Y=-0.655 Z=56.670
+[2018.08.26-18.17.37:762][879]LogTemp: Warning: Line trace hit: SM_Lamp_Ceiling_15
+[2018.08.26-18.17.38:112][900]LogTemp: Warning: DefaultPawn_BP: Release called!
+[2018.08.26-18.17.38:377][916]LogTemp: Warning: DefaultPawn_BP: Grab called!
+[2018.08.26-18.17.38:377][916]LogTemp: Warning: start: X=-99.152 Y=87.654 Z=127.000    end: X=-60.877 Y=7.779 Z=46.037
+[2018.08.26-18.17.38:377][916]LogTemp: Warning: Line trace hit: SM_Lamp_Ceiling_15
+[2018.08.26-18.17.38:910][948]LogTemp: Warning: DefaultPawn_BP: Release called!
+[2018.08.26-18.17.39:027][955]LogTemp: Warning: DefaultPawn_BP: Grab called!
+[2018.08.26-18.17.39:027][955]LogTemp: Warning: start: X=-99.152 Y=87.654 Z=127.000    end: X=-51.298 Y=-22.292 Z=122.324
+[2018.08.26-18.17.39:027][955]LogTemp: Warning: Line trace hit: SM_Lamp_Ceiling_15
+[2018.08.26-18.17.40:260][ 29]LogTemp: Warning: DefaultPawn_BP: Release called!
+[2018.08.26-18.17.42:311][152]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.08.26-18.17.42:312][152]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.08.26-18.17.42:347][152]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.08.26-18.17.42:348][152]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.08.26-18.17.42:373][152]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.08.26-18.17.42:423][154]LogPlayLevel: Display: Destroying online subsystem :Context_4
+[2018.08.26-18.17.43:623][226]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.08.26-18.17.43:723][232]LogTemp: Repeating last play command: Selected Viewport
+[2018.08.26-18.17.43:732][232]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.08.26-18.17.43:733][232]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.08.26-18.17.43:734][232]PIE: New page: PIE session: Minimal_Default (26 aug 2018 22:17:43)
+[2018.08.26-18.17.43:734][232]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2018.08.26-18.17.43:738][232]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004000s)
+[2018.08.26-18.17.43:739][232]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.08.26-18.17.43:740][232]LogPlayLevel: PIE: World Init took: (0.001572s)
+[2018.08.26-18.17.43:740][232]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.006718s)
+[2018.08.26-18.17.43:770][232]LogInit: XAudio2 using 'Högtalare (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.08.26-18.17.43:781][232]LogInit: FAudioDevice initialized.
+[2018.08.26-18.17.43:811][232]LogLoad: Game class is 'EscapeRoomGameMode_BP_C'
+[2018.08.26-18.17.43:813][232]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 60) at 2018.08.26-20.17.43
+[2018.08.26-18.17.43:813][232]LogWorld: Bringing up level for play took: 0.001380
+[2018.08.26-18.17.43:826][232]LogTemp: Warning: OpenableDoor - OpenDoor: There's no pressure plate assigned!
+[2018.08.26-18.17.43:826][232]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default −0,239
+[2018.08.26-18.17.43:827][232]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.08.26-18.17.45:228][314]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.08.26-18.17.45:229][314]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.08.26-18.17.45:259][314]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.08.26-18.17.45:259][314]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.08.26-18.17.45:285][314]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.08.26-18.17.45:341][317]LogPlayLevel: Display: Destroying online subsystem :Context_5
+[2018.08.26-18.17.46:884][407]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (OpenableDoor)
+[2018.08.26-18.17.49:142][541]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.08.26-18.17.53:788][819]LogSlate: Took 0.000268 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.08.26-18.18.03:892][425]LogTemp: Repeating last play command: Selected Viewport
+[2018.08.26-18.18.03:900][425]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.08.26-18.18.03:901][425]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.08.26-18.18.03:901][425]PIE: New page: PIE session: Minimal_Default (26 aug 2018 22:18:03)
+[2018.08.26-18.18.03:901][425]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2018.08.26-18.18.03:905][425]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003950s)
+[2018.08.26-18.18.03:907][425]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.08.26-18.18.03:907][425]LogPlayLevel: PIE: World Init took: (0.001461s)
+[2018.08.26-18.18.03:907][425]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.006070s)
+[2018.08.26-18.18.03:936][425]LogInit: XAudio2 using 'Högtalare (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.08.26-18.18.03:945][425]LogInit: FAudioDevice initialized.
+[2018.08.26-18.18.03:977][425]LogLoad: Game class is 'EscapeRoomGameMode_BP_C'
+[2018.08.26-18.18.03:979][425]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 60) at 2018.08.26-20.18.03
+[2018.08.26-18.18.03:980][425]LogWorld: Bringing up level for play took: 0.001372
+[2018.08.26-18.18.03:993][425]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default −0,073
+[2018.08.26-18.18.03:994][425]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
