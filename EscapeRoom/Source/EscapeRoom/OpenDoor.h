@@ -7,6 +7,8 @@
 #include "Engine/TriggerVolume.h"
 #include "OpenDoor.generated.h"
 
+DECLARE_DYNAMIC_MULTICAST_DELEGATE(FOnOpenRequest);
+DECLARE_DYNAMIC_MULTICAST_DELEGATE(FOnCloseRequest);
 
 UCLASS( ClassGroup=(Custom), meta=(BlueprintSpawnableComponent) )
 class ESCAPEROOM_API UOpenDoor : public UActorComponent
@@ -16,6 +18,9 @@ class ESCAPEROOM_API UOpenDoor : public UActorComponent
 public:	
 	// Sets default values for this component's properties
 	UOpenDoor();
+
+	/*UPROPERTY(BlueprintAssignable)
+		FOnOpenRequest OnOpenRequest;*/
 
 protected:
 	// Called when the game starts
@@ -29,10 +34,12 @@ private:
 	UPROPERTY(EditAnywhere)
 		float _pressurePlateWeigthThreshold = 100.0;
 
-	float _closedAngle;
+	// Delegates
+	UPROPERTY(BlueprintAssignable)
+		FOnOpenRequest OnOpen;
+	UPROPERTY(BlueprintAssignable)
+		FOnCloseRequest OnClose;
 
-	void OpenDoor();
-	void CloseDoor();
 	float GetMassOfActorsOnPressurePlate();
 
 public:	

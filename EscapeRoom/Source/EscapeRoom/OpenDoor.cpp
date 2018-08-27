@@ -18,10 +18,8 @@ void UOpenDoor::BeginPlay()
 	Super::BeginPlay();
 	if (!_pressurePlate)
 	{
-		UE_LOG(LogTemp, Warning, TEXT("%s - %s: There's no pressure plate assigned!"), *GetOwner()->GetActorLabel(), *this->GetName());
+		UE_LOG(LogTemp, Error, TEXT("%s - %s: There's no pressure plate assigned!"), *GetOwner()->GetActorLabel(), *this->GetName());
 	}
-
-	_closedAngle = GetOwner()->GetActorRotation().Yaw;
 }
 
 // Called every frame
@@ -36,28 +34,12 @@ void UOpenDoor::TickComponent(float DeltaTime, ELevelTick TickType, FActorCompon
 
 	if (GetMassOfActorsOnPressurePlate() > _pressurePlateWeigthThreshold)
 	{
-		OpenDoor();
+		OnOpen.Broadcast();
 	}
 	else
 	{
-		CloseDoor();
+		OnClose.Broadcast();
 	}
-}
-
-void UOpenDoor::OpenDoor()
-{
-	auto yaw = _openAngle;
-	float roll = GetOwner()->GetActorRotation().Roll;
-	float pitch = GetOwner()->GetActorRotation().Pitch;
-	GetOwner()->SetActorRotation(FRotator(pitch, yaw, roll));
-}
-
-void UOpenDoor::CloseDoor()
-{
-	auto yaw = _closedAngle;
-	float roll = GetOwner()->GetActorRotation().Roll;
-	float pitch = GetOwner()->GetActorRotation().Pitch;
-	GetOwner()->SetActorRotation(FRotator(pitch, yaw, roll));
 }
 
 float UOpenDoor::GetMassOfActorsOnPressurePlate()

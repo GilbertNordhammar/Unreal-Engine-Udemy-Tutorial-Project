@@ -11,17 +11,23 @@
 #endif
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 void EmptyLinkFunctionForGeneratedCodeEscapeRoom_init() {}
+	ESCAPEROOM_API UFunction* Z_Construct_UDelegateFunction_EscapeRoom_OnOpenRequest__DelegateSignature();
+	ESCAPEROOM_API UFunction* Z_Construct_UDelegateFunction_EscapeRoom_OnCloseRequest__DelegateSignature();
 	UPackage* Z_Construct_UPackage__Script_EscapeRoom()
 	{
 		static UPackage* ReturnPackage = nullptr;
 		if (!ReturnPackage)
 		{
+			static UObject* (*const SingletonFuncArray[])() = {
+				(UObject* (*)())Z_Construct_UDelegateFunction_EscapeRoom_OnOpenRequest__DelegateSignature,
+				(UObject* (*)())Z_Construct_UDelegateFunction_EscapeRoom_OnCloseRequest__DelegateSignature,
+			};
 			static const UE4CodeGen_Private::FPackageParams PackageParams = {
 				"/Script/EscapeRoom",
 				PKG_CompiledIn | 0x00000000,
-				0x6454E233,
-				0x250230F4,
-				nullptr, 0,
+				0x9682C79C,
+				0x0FAB1C51,
+				SingletonFuncArray, ARRAY_COUNT(SingletonFuncArray),
 				METADATA_PARAMS(nullptr, 0)
 			};
 			UE4CodeGen_Private::ConstructUPackage(ReturnPackage, PackageParams);
